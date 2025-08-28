@@ -9,7 +9,7 @@ elif system == "Windows":
 else:
     MINECRAFT_DIR = os.getcwd()
 
-MODS_DIR = os.path.join(MINECRAFT_DIR, "mods")
+MODS_DIR = os.path.join("./", "mods")
 if not os.path.exists(MODS_DIR):
     os.makedirs(MODS_DIR)
 

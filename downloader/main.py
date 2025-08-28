@@ -39,6 +39,7 @@ def download_file(url, save_dir):
         return save_path
     r = requests.get(url)
     r.raise_for_status()
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
     with open(save_path, "wb") as f:
         f.write(r.content)
     size_mb = len(r.content) / (1024 * 1024)
@@ -47,7 +48,7 @@ def download_file(url, save_dir):
     return save_path
 
 def start_download_callback():
-    dpg.set_value(status_text, "Downloading mods_list.txt...")
+    dpg.set_value(status_text, "Downloading mods list...")
     r = requests.get(MODS_LIST_URL)
     r.raise_for_status()
     mods_files = r.text.splitlines()
@@ -56,7 +57,7 @@ def start_download_callback():
     for idx, mod_file in enumerate(mods_files):
         mod_url = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/mods/{mod_file}"
         download_file(mod_url, MODS_DIR)
-        dpg.set_value(progress_bar, (idx + 1) / (len(mods_files) + 1))  # +1 for servers.dat
+        dpg.set_value(progress_bar, (idx + 1) / (len(mods_files) + 1))
 
     download_file(SERVERS_DAT_URL, MINECRAFT_DIR)
     dpg.set_value(progress_bar, 1.0)
@@ -75,7 +76,7 @@ with dpg.font_registry():
         default_font = dpg.add_font(FONT_PATH, 22)
         dpg.bind_font(default_font)
 
-with dpg.window(label="GitHub Downloader") as window_id:
+with dpg.window(label="Zalupa Downloader") as window_id:
     dpg.add_text(f"{OWNER}/{REPO}", color=(100, 200, 255))
     dpg.add_spacer(height=10)
     status_text = dpg.add_text("Waiting...")
@@ -86,7 +87,7 @@ with dpg.window(label="GitHub Downloader") as window_id:
 
 threading.Thread(target=show_caci, daemon=True).start()
 
-dpg.create_viewport(title="GitHub Downloader")
+dpg.create_viewport(title="Zalupa Downloader")
 dpg.setup_dearpygui()
 screen_width = dpg.get_viewport_width()
 screen_height = dpg.get_viewport_height()

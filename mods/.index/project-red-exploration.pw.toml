@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.21.0-exploration.jar'
+name = 'Project Red - Exploration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8973852066055991cc72a154673ae7c19aaad7b5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6868145
+project-id = 229049

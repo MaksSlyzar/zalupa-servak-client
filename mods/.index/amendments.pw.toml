@@ -1,0 +1,16 @@
+filename = 'amendments-1.20-2.2.1.jar'
+name = 'Amendments'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5b83b3cd9143b95ecb4ce82b71e26d3727040e79'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6913537
+project-id = 896746

@@ -1,0 +1,16 @@
+filename = 'sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar'
+name = 'Sodium/Embeddium Options Mod Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '797554fd7d20a86fc168d2df83d611ed12185b05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6041603
+project-id = 1146393

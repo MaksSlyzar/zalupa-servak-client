@@ -1,0 +1,16 @@
+filename = 'dungeonsartifacts-1.5.0-1.20.1.jar'
+name = 'Dungeons Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '771ff4656a7751642e3ffb7e0a42e2a8e2bc9a293e83fec864088deeca22bf8d3c4a947d44b73ecee3c78cdcf43bc47b5b191f4229736ac2e1156948307b3df7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KEoZdemO/versions/KLRYSUIy/dungeonsartifacts-1.5.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'KEoZdemO'
+version = 'KLRYSUIy'

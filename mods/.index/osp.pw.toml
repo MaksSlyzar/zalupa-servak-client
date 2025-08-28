@@ -1,0 +1,16 @@
+filename = 'osp 1.20.1 (v4.0.0).jar'
+name = 'osp: offline server password'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '020cd0043b49edd1f207399fa2ee8a562e24b49d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6041984
+project-id = 1056334

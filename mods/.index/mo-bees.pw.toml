@@ -1,0 +1,16 @@
+filename = 'mobees-1.20.1-0.1.5.jar'
+name = "Mo' Bees"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '125e565f89efec32b70afe266ceca965b56a9bf38674059cf43d5a0738da39e70ca3ec06e904887fadb5f50d2c5fd1507cd0a40b00f022eea29d4ae0fa674c19'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/srUEV3lp/versions/ZGZ7KjOt/mobees-1.20.1-0.1.5.jar'
+
+[update.modrinth]
+mod-id = 'srUEV3lp'
+version = 'ZGZ7KjOt'

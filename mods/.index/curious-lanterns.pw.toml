@@ -1,0 +1,16 @@
+filename = 'curiouslanterns-1.20.1-1.3.7.jar'
+name = 'Curious Lanterns'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cd781f828539e28c2f5afa748b4ba21368fd542f968f51c823ca94c08fffe16a7506e70d0d99ef5bc6ce041c499679092052197170f673c4fb517767cff475c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cE5SLYbv/versions/XHC2wH2e/curiouslanterns-1.20.1-1.3.7.jar'
+
+[update.modrinth]
+mod-id = 'cE5SLYbv'
+version = 'XHC2wH2e'

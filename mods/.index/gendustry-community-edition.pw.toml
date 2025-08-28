@@ -1,0 +1,16 @@
+filename = 'gendustry-1.20.1-1.0.3.jar'
+name = 'Gendustry: Community Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c82a32511e1e146ad34382cc856b6832f6a13928'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6317004
+project-id = 1179084

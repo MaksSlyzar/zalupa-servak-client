@@ -1,0 +1,16 @@
+filename = 'ftbchunkscompatibility-forge-1.20.1-1.0.1.jar'
+name = 'FTB Chunks Compatibility'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'efcb40c12b188f6b72fd3fafee0125a8a41edd97'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6532246
+project-id = 1265806

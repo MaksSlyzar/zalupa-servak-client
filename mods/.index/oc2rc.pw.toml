@@ -1,0 +1,16 @@
+filename = 'oc2rc-1.20.1-forge-2.0.1-all.jar'
+name = 'OC2R: Components'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd3ebc1e3bb067c15a27866e4fdc8947c59c6d063'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6901578
+project-id = 1070382

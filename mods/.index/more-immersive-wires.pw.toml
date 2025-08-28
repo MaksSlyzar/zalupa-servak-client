@@ -1,0 +1,16 @@
+filename = 'more-immersive-wires-1.20.1-1.1.4.jar'
+name = 'More Immersive Wires'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '945ed579243b40546455ff14360f7675069d41c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5341245
+project-id = 850891

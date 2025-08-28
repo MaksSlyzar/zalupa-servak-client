@@ -1,0 +1,16 @@
+filename = 'MysticalAgradditions-1.20.1-7.0.11.jar'
+name = 'Mystical Agradditions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8077ba5e1981cb135c967ed25c0825c003b9e1fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6880325
+project-id = 256247

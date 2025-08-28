@@ -1,0 +1,16 @@
+filename = 'EMIProfessions-forge-1.20.1-1.0.3.jar'
+name = 'EMI professions (EMIP)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b43f28489fcac9e47a23987c2fd9c226d2494dd5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6817192
+project-id = 1065904

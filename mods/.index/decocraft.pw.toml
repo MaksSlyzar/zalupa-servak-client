@@ -1,0 +1,16 @@
+filename = 'decocraft-3.0.0.12-beta-1.20.1-slim.jar'
+name = 'Decocraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9369e5cfcca053c4d777dba3ebfa1bcbefb9206bb5bace875b2568c7181ec85e9012350dc1dfefa86a828dd698111c7a87a6969fb14b3c7158c08032d5509aa5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IZJSgKZe/versions/Tj80BJc1/decocraft-3.0.0.12-beta-1.20.1-slim.jar'
+
+[update.modrinth]
+mod-id = 'IZJSgKZe'
+version = 'Tj80BJc1'
